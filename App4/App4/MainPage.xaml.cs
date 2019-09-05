@@ -44,7 +44,7 @@ namespace App4
 
         public string GetCurrentSSID()
         {
-            string wifiInfo = "SSID ";
+            string wifiInfo = "Info: ";
 
             try
             {
