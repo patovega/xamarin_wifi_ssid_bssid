@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App4"
+             x:Class="App4.MainPage">
+
+    <StackLayout>
+       
+
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2" />
+            </Grid.ColumnDefinitions>
+
+            <Label x:Name="lblWelcome"  Grid.Column="1" Grid.Row="1" HorizontalTextAlignment="Center"></Label>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
